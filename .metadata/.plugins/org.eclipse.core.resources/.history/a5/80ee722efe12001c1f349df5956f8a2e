@@ -1,0 +1,8 @@
+package com.product.productcatologservice.model;
+
+public class Product {
+	private String productName;
+	private String productDescription;
+	
+
+}

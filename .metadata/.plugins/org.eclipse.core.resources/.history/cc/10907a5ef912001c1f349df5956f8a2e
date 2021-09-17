@@ -1,0 +1,13 @@
+package com.product.productinfoservice.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.product.productinfoservice.model.ProductInfo;
+
+@RestController
+public class ProductInfoController {
+	public ProductInfo getProductInfo() {
+
+	}
+
+}

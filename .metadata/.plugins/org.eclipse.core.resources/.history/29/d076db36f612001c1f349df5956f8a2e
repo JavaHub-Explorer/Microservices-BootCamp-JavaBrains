@@ -1,0 +1,18 @@
+package com.product.productcatologservice.controller;
+
+import java.util.Collections;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.product.productcatologservice.model.Product;
+
+@RestController
+public class ProductController {
+
+	public List<Product> getProductDetails() {
+		return Collections.singletonList(new Product("Sirt","Blue Denim Shirt",4));
+
+	}
+
+}

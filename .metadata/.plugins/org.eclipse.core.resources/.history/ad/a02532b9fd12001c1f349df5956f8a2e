@@ -1,0 +1,33 @@
+package com.product.productcatologservice.model;
+
+public class Product {
+private String productName;
+private String productDesc;
+private int rating;
+public Product() {}
+public Product(String productName, String productDesc, int rating) {
+	super();
+	this.productName = productName;
+	this.productDesc = productDesc;
+	this.rating = rating;
+}
+public String getName() {
+	return productName;
+}
+public void setName(String productName) {
+	this.productName = productName;
+}
+public String getDesc() {
+	return productDesc;
+}
+public void setDesc(String productDesc) {
+	this.productDesc = productDesc;
+}
+public int getRating() {
+	return rating;
+}
+public void setRating(int rating) {
+	this.rating = rating;
+}
+
+}

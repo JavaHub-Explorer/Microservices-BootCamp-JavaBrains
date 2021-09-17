@@ -1,0 +1,13 @@
+package com.product.productcatologservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ProductCatologServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ProductCatologServiceApplication.class, args);
+	}
+
+}

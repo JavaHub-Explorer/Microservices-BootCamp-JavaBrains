@@ -1,0 +1,5 @@
+package com.product.productcatologservice.controller;
+
+public class ProductController {
+
+}

@@ -1,0 +1,5 @@
+package com.product.productratingservice.model;
+
+public class Rating {
+
+}
